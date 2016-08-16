@@ -17,3 +17,7 @@ Feature: Website Base Requirements - User Registration - Only admins login
   Scenario: Check if a not logged in user can access administration pages
      When I go to "/admin"
      Then I should see "Access denied"
+
+Scenario: Check if a not logged in user can access homepage
+     When I go to "/homepage"
+     Then I should see "Logo"
