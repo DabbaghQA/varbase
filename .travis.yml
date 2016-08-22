@@ -14,7 +14,7 @@ php:
 env:
   - VERSION=8.x-4.x
   
-sudo: false
+sudo: true
 
 mysql:
   database: drupal
